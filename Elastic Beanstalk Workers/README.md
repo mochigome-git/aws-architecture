@@ -33,13 +33,13 @@ To deploy your Docker image on Elastic Beanstalk:
 
 3.  “eb init” command creates .gitignore and .elasticbeanstalk directories. Change to .elasticbeanstalk directory and check the config.yml file. You can see the general configuration of the application in the config.yml file.
 
-  ```bash
-  cd ~/ebsdemo/.elasticbeanstalk
-  cat config.yml
-  ```
+   ```bash
+  　cd ~/ebsdemo/.elasticbeanstalk
+  　cat config.yml
+   ```
 
 4. To create the environment where the application will run. Run the following command to create an environment.
 
- ```bash
- eb create name-of-the-application
- ```
+   ```bash
+ 　eb create name-of-the-application
+   ```
