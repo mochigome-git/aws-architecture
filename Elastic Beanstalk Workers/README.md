@@ -29,5 +29,5 @@ To deploy your Docker image on Elastic Beanstalk:
    ```bash
    eb init
    ```
-   refer to [Configure the EB CLI.md](https://github.com/yourusername/aws-architecture/blob/main/Elastic%20Beanstalk%20Workers/EB%20CLI/Configure%20the%20EB%20CLI.md)
+   refer to [Configure the EB CLI.md](https://github.com/mochigome-git/aws-architecture/blob/main/Elastic%20Beanstalk%20Workers/EB%20CLI/Configure%20the%20EB%20CLI.md)
 
