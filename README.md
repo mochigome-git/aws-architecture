@@ -1,6 +1,6 @@
 # AWS Architecture Documentation Repository
 
-Welcome to our AWS Architecture Documentation Repository! This repository serves as a central hub for documenting various AWS architecture designs implemented within our organization. Whether you're a seasoned AWS architect or just starting your journey in cloud infrastructure, this repository aims to provide comprehensive insights, best practices, and real-world examples to guide you through the intricacies of designing robust, scalable, and cost-effective solutions on AWS.
+Welcome to our AWS Architecture Documentation Repository! This repository serves as a central hub for documenting various AWS architecture designs implemented within our organization. Whether you're a seasoned AWS architect or just starting your journey in cloud infrastructure, this repository aims to provide simple insights, my own practices, and real-world examples to guide you through the intricacies of designing robust, scalable, and cost-effective solutions on AWS.
 
 ## Purpose
 
