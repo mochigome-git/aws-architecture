@@ -106,3 +106,7 @@ To upgrade to the latest version of the EB CLI, run the installation command aga
 
 ```bash
 $ pip install awsebcli --upgrade --user
+```
+
+For detailed instructions and troubleshooting, refer to the official [AWS documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-linux.html).
+
