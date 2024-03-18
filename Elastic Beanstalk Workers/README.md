@@ -43,3 +43,23 @@ To deploy your Docker image on Elastic Beanstalk:
    ```bash
    eb create name-of-the-application
    ```
+
+5. The process involves archiving files in the current directory and uploading them to an S3 bucket. Then, it creates an environment for the application with various components like security groups, load balancers, and auto scaling groups. If needed, it adds a policy for accessing ECR repositories. After setup, you can access the application through the Elastic Beanstalk management console or by running eb open command. You can also check Docker container status by connecting to the EC2 instance. Configuration changes can be made from the management console.
+
+   ```bash
+   eb open
+   ```
+   
+## Clean Up
+Run the following command to delete your CloudFormation stack which is created by EB CLI.
+
+   ```bash
+   eb terminate
+   ```
+
+You also need to delete the ECR repositories from CLI or AWS Management Console.
+
+   ```bash
+   aws ecr delete-repository --repository-name <app_name> --force 
+   aws ecr delete-repository --repository-name <app_name> --force
+   ```
