@@ -1,5 +1,5 @@
 # Installing Python, pip, and the EB CLI on Linux
-#### copied from official AWS documentation 18/3/2024
+##### copied from official AWS documentation 18/3/2024
 
 The EB CLI requires Python 2.7, 3.4, or later. If your distribution didn't come with Python, or came with an earlier version, install Python before installing pip and the EB CLI.
 
