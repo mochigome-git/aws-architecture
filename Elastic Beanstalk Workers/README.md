@@ -12,6 +12,7 @@ Before deploying your application, ensure you have the following prerequisites:
 - An AWS account with permissions to create and manage Elastic Beanstalk applications.
 - Docker installed on your local machine for building and testing your Docker image.
 - A Docker image hosted on Docker Hub that you want to deploy on Elastic Beanstalk.
+- Install Python, pip, and the EB CLI on local machine.
 
 ## Getting Started
 
