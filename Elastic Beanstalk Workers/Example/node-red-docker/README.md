@@ -35,4 +35,13 @@
 
     **Note:** If you need to add more users to the `.htpasswd` file without recreating it, remove the `-c` flag from the command.
 
+## Initial eb and deploy
+1. refer to the Elastic Beanstalk Workers's README
 
+2. Create the Elastic beanstalk with eb cli
+    ```bash
+    eb create
+    ```
+
+3. Select NLB, Network load balancer type as a load balancer
+   
