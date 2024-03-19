@@ -1,5 +1,6 @@
 ## Git Project
-Clone the project to your local env
+
+Clone the project to your local env:
     ```bash
     git clone https://github.com/mochigome-git/aws-architecture/edit/main/Elastic%20Beanstalk%20Workers/Example/node-red-docker/
     ```
