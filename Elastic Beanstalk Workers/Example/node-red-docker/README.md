@@ -1,9 +1,9 @@
 ## Git Project
 
-Clone the project to your local env:
-```bash
-git clone https://github.com/mochigome-git/aws-architecture/edit/main/Elastic%20Beanstalk%20Workers/Example/node-red-docker/
-```
+1. Clone the project to your local env :
+    ```bash
+    git clone https://github.com/mochigome-git/aws-architecture/edit/main/Elastic%20Beanstalk%20Workers/Example/node-red-docker/
+    ```
 
 ## Folder Structure
 
@@ -34,3 +34,5 @@ git clone https://github.com/mochigome-git/aws-architecture/edit/main/Elastic%20
     - You'll be prompted to enter the password for the username you specified.
 
     **Note:** If you need to add more users to the `.htpasswd` file without recreating it, remove the `-c` flag from the command.
+
+
