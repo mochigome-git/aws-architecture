@@ -1,8 +1,8 @@
 ## Git Project
 
-1. Clone the project to your local env :
+1. Download the example to your local env :
     ```bash
-    git clone https://github.com/mochigome-git/aws-architecture/edit/main/Elastic%20Beanstalk%20Workers/Example/node-red-docker/
+    Copy the sub file manually or git the entire repo
     ```
 
 ## Folder Structure
