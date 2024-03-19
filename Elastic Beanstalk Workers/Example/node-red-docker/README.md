@@ -5,10 +5,12 @@
     mkdir certs
     ```
 
-2. Create files `cert.csr`, `cert.pem`, and `key.pem` inside the `certs` folder:
+2. Generate a private key and create files `cert.csr` and `cert.pem` inside the `certs` folder:
     ```bash
     cd certs
-    touch cert.csr cert.pem key.pem
+    openssl genrsa -out key.pem 2048
+    openssl req -new -key key.pem -out cert.csr
+    openssl x509 -req -in cert.csr -signkey key.pem -out cert.pem
     ```
 
 ## Creating `.htpasswd`
@@ -25,4 +27,3 @@
     - You'll be prompted to enter the password for the username you specified.
 
     **Note:** If you need to add more users to the `.htpasswd` file without recreating it, remove the `-c` flag from the command.
-
